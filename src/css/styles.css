@@ -1,7 +1,66 @@
 :root {
     font-size: 62.5%;
+
+    --green-1000: #052e16;
+    --green-600: #16A34A;
+    --green-500: #22c55e;
+
+    --black-900: #1C1917;
+    --black-600: #57534e;
+
+    --brown-700: #292524;
+
+    --white-300: #cbd5e1;
+
+    --blue-500: #3b82f6;
+
+    --indig-500: #6366f1;
+
+    --font-emphasis: "Roboto", sans-serif;
+    --font-text: "Poppins", sans-serif;
 }
 
 html {
     font-size: 1.6rem;
+}
+
+body {
+   background-color: var(--black-900); 
+   color: var(--white-300);
+   font-family: var(--font-text);
+
+   display: grid;
+   grid-template-areas: 
+   "header"
+   "main";
+
+   height: 100vh;
+}
+
+.header {
+    grid-area: header;
+
+    height: 5rem;
+    padding: 1.2rem 2rem 0 2rem;
+
+    display: flex;
+    justify-content: space-between
+}
+
+.header__logo {
+   width: 3.6rem;
+   height: 3.4rem;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+
+.main {
+    grid-area: main;
+    
+    height: calc(100vh - 5rem);
+
+    overflow-y: scroll;
 }
