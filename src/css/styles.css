@@ -65,3 +65,56 @@ body {
 
     overflow-y: scroll;
 }
+
+.intro {
+    background-color: var(--brown-700);
+
+    padding: 1rem 2rem 2.4rem;
+
+    border-radius: 0 100px 100px 0;
+
+    width: 80%;
+}
+
+.intro__title {
+    font-family: var(--font-emphasis);
+    font-size: 2.4rem;
+}
+
+.intro__title span {
+    text-shadow: 
+    -1px -1px 0 var(--green-600), /* Sombra superior esquerda */
+    1px -1px 0 var(--green-600), /* Sombra superior direita */
+    -1px 1px 0 var(--green-600), /* Sombra inferior esquerda */
+    1px 1px 0 var(--green-600); /* Sombra inferior direita */
+
+    color: var(--brown-700); 
+}
+
+.intro div {
+    display: flex;
+    gap: 2rem;
+}
+
+.intro__text {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.intro__btn-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    width: 8.6rem;
+    height: 2.8rem;
+
+    background-color: var(--green-600);
+
+    color: var(--black-900);
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    border-radius: 80px;
+}
