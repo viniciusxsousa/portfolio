@@ -134,3 +134,26 @@ body {
     width: 3.3rem;
     height: 2.1rem;
 }
+
+.skills {
+    padding: 2.4rem 2rem;
+}
+
+.skills__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__bar {
+    width: 9rem;
+    height: 0.1rem;
+
+    background-color: var(--white-300);
+}
+
+.skills__title {
+    font-family: var(--font-emphasis);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
