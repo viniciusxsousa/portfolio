@@ -180,3 +180,7 @@ body {
 
     border-radius: 5px;
 }
+
+.skills__techs-tailwind {
+    width: 3rem;
+}
