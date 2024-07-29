@@ -157,3 +157,26 @@ body {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+.skills__techs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    margin-top: 1.4rem;
+}
+
+.skills__techs div {
+    width: 6.5rem;
+    height: 6.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--brown-700);
+
+    border-radius: 5px;
+}
