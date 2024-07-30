@@ -184,3 +184,55 @@ body {
 .skills__techs-tailwind {
     width: 3rem;
 }
+
+.latestProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience__title {
+    font-family: var(--font-emphasis);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--green-600)
+}
+
+.experience__bar {
+    height: 1px;
+    width: 280px;
+
+    background-color: var(--white-300);
+}
+
+.experience__historic{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    width: 80%;
+}
+
+.experience__historic p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.experience__historic p:nth-child(2) {
+    font-size: 1.2rem;
+}
+
+.experience_institution {
+    font-size: 1.2rem;
+
+    align-self: flex-start;
+
+    margin-left: 3.2rem;
+}
