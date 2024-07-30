@@ -236,3 +236,45 @@ body {
 
     margin-left: 3.2rem;
 }
+
+.footer {
+    background-color: var(--brown-700);
+
+    display: flex;
+    gap: 3rem;
+
+    padding: 1rem 2rem;
+}
+
+.footer__logo {
+    width: 3.5rem;
+}
+
+.footer__buttons-conteiner {
+    display: flex;
+    gap: 5px
+}
+
+.footer__buttons {
+    width: 9rem;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    background-color: var(--black-900);
+    color: var(--white-300);
+
+    border: none;
+    border-radius: 8px;
+}
+
+.footer__bar {
+    margin: .8rem 0;
+    height: 1px;
+    background-color: var(--white-300);
+}
+
+.footer__copy {
+    text-align: center;
+}
