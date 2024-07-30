@@ -37,12 +37,6 @@ body {
    height: 100vh;
 }
 
-/* Slider */
-.swiper {
-    width: 600px;
-    height: 300px;
-}
-
 .header {
     grid-area: header;
 
@@ -197,6 +191,18 @@ body {
     align-items: center;
 }
 
+/* Slider */
+.slider {
+    width: 100%;
+    height: 175px;
+    position: relative;
+}
+
+.swiper {
+    width: 180px;
+    height: 150px;
+}
+
 .experience {
     margin-top: 2.4rem;
     display: flex;
@@ -285,4 +291,22 @@ body {
 
 .footer__copy {
     text-align: center;
+}
+
+.teste1 {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.teste2 {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+
+.teste3 {
+    width: 100%;
+    height: 100%;
+    background-color: green;
 }
