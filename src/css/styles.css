@@ -192,7 +192,8 @@ body {
 }
 
 .latestProjects__title {
-    color: var(--green-600)
+    color: var(--green-600);
+    margin-bottom: 2.4rem;
 }
 
 /* Slider */
