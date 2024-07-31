@@ -191,6 +191,10 @@ body {
     align-items: center;
 }
 
+.latestProjects__title {
+    color: var(--green-600)
+}
+
 /* Slider */
 .slider {
     width: 100%;
