@@ -339,3 +339,27 @@ body {
     height: 100%;
     background-color: green;
 }
+
+@media screen and (min-width: 375px){
+    .slider {
+        height: 210px;
+    }
+    
+    .swiper {
+        width: 250px;
+        height: 170px;
+    }
+
+    .experience__bar {
+        width: 310px;
+    }
+
+    .experience_institution {
+        margin-left: 4rem;
+    }
+
+    .footer__buttons-conteiner {
+        flex-wrap: nowrap;
+    }
+
+}
