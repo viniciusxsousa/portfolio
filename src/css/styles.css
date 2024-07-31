@@ -207,6 +207,14 @@ body {
     height: 150px;
 }
 
+.swiper-button-prev, .swiper-button-next {
+    color: var(--green-600);
+}
+
+.swiper-pagination span {
+    background-color: var(--green-600);
+}
+
 .latestProjects__all {
     font-size: 1.4rem;
 
