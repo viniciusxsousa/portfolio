@@ -228,12 +228,16 @@ body {
     font-family: var(--font-emphasis);
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--green-600)
+    color: var(--green-600);
+
+    margin-bottom: 2rem;
 }
 
 .experience__bar {
     height: 1px;
     width: 280px;
+
+    margin-bottom: 0.8rem;
 
     background-color: var(--white-300);
 }
@@ -242,6 +246,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
+    margin-bottom: 1.4rem;
 
     width: 80%;
 }
