@@ -364,3 +364,25 @@ body {
     }
 
 }
+
+@media screen and (min-width: 425px) {
+    .skills__bar {
+        width: 13rem; 
+    }
+
+    .skills__techs {
+        gap: 8px;
+    }
+    
+    .swiper {
+        width: 290px;
+    }
+
+    .experience__bar {
+        width: 350px;
+    }
+
+    .experience_institution {
+        margin-left: 4.5rem;
+    }
+}
