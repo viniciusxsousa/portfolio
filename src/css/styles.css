@@ -515,6 +515,10 @@ body {
         font-size: 1.2rem;
     }
 
+    .latestProjects {
+        padding: 0 3.2rem;
+    }
+
     .latestProjects__title {
         font-size: 2rem;
     }
