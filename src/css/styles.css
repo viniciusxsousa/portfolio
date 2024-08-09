@@ -37,6 +37,8 @@ body {
 
 
    height: 100vh;
+
+   overflow-y: hidden;
 }
 
 .header {
@@ -61,6 +63,10 @@ body {
 .header__button {
     border: none;
     background-color: transparent;
+}
+
+.header__button__contact {
+    display: none;
 }
 
 .main {
@@ -401,7 +407,6 @@ body {
     .header {
         height: 8rem;
         padding: 1.2rem 3.2rem 0 3.2rem;
-        margin-bottom: 4.8rem;
     }
 
     .header__button {
@@ -585,6 +590,56 @@ body {
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        grid-template-rows: 8rem auto;
+     }
+
+     .header {
+        align-items: center;
+
+        padding: 1.2rem 9.2rem 0 9.2rem;
+     }
+
+     .header__logo {
+        width: 4.8rem;
+        height: 4.8rem;
+     }
+
+     .header__nav ul {
+        gap: 1.6rem;
+
+        display: flex;
+        align-items: center;
+
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .header__nav ul li:nth-child(5) {
+        display: none;
+    }
+
+    .header__button__contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+        color: var(--white-300);
+
+        width: 9.5rem;
+        height: 3rem;
+
+        border: 2px solid var(--green-600);
+        border-radius: 10px;
+
+        margin-left: 5rem;
     }
 
 }
