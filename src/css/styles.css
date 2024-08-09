@@ -437,7 +437,7 @@ body {
     .intro {
         background-color: transparent;
         
-        padding: 2.1rem 2rem 2.4rem 0;
+        padding: 2.1rem 3.2rem 2.4rem 0;
                
         width: 100%;
 
@@ -493,6 +493,26 @@ body {
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+
+    .skills {
+        padding: 0rem 3.2rem;
+        margin-bottom: 46px;;
+    }
+
+    .skills__bar {
+        width: 25rem;
+    }
+
+    .skills__title {
+        font-size: 2rem;
+    }
+
+    .skills__techs div {
+        width: 8.5rem;
+        height: 8.5rem;
+
+        font-size: 1.2rem;
     }
 
     .latestProjects__title {
