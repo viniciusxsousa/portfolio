@@ -538,4 +538,26 @@ body {
         margin-right: 50px;
     }
 
+    .experience {
+        padding: 0 3.2rem;
+    }
+
+    .experience__title {
+        font-size: 2rem;
+    }
+
+    .experience__bar {
+        width: 56rem;
+    }
+
+    .experience__historic p:nth-child(1), .experience__historic p:nth-child(2) {
+        font-size: 1.4rem;
+    }
+
+    .experience_institution {
+        margin-left: 7.2rem;
+
+        font-size: 1.4rem;
+    }
+
 }
