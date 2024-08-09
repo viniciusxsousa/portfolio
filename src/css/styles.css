@@ -80,6 +80,10 @@ body {
     width: 80%;
 }
 
+.intro__right {
+    display: none;
+}
+
 .intro__title {
     font-family: var(--font-emphasis);
     font-size: 2.4rem;
@@ -429,5 +433,66 @@ body {
         color: var(--white-300);
     }
 
+
+    .intro {
+        background-color: transparent;
+        
+        padding: 2.1rem 2rem 2.4rem 0;
+               
+        width: 100%;
+
+        display: flex;
+        gap: 100px;
+        align-items: flex-end;
+    }
+    
+    .intro__left {
+        background-color: var(--brown-700);
+
+        width: 50%;
+
+        border-radius: 0 100px 100px 0;
+
+        padding: 3rem 3.2rem
+    }
+
+    .intro__title {
+        font-size: 3.5rem;
+    }
+
+    .intro__text {
+        font-size: 2rem;
+    }
+    
+    .intro__btn-contact {
+        width: 10rem;
+        height: 4rem;
+    }
+
+    .intro__buttons div button {
+        width: 6rem;
+        height: 4rem;
+    }
+    
+    .intro__right {
+        display: block;
+        width: 18rem;
+        height: 20.5rem;
+        
+        background-color: var(--green-1000);
+
+        border-radius: 100% 100% 0 0;
+
+        position: relative;
+    }
+
+    .intro__right img {
+        width: 200px;
+        height: 300px;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 
 }
