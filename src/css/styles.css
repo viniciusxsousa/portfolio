@@ -517,6 +517,7 @@ body {
 
     .latestProjects {
         padding: 0 3.2rem;
+        margin-bottom: 46px;
     }
 
     .latestProjects__title {
