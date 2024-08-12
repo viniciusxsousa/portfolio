@@ -96,6 +96,10 @@ body {
     display: none;
 }
 
+.intro__right__dots {
+    display: none;
+}
+
 .intro__title {
     font-family: var(--font-emphasis);
     font-size: 2.4rem;
@@ -699,6 +703,8 @@ body {
     }
 
     .intro__right-container {
+        position: relative;
+
         width: 32rem;
     }
 
@@ -727,6 +733,39 @@ body {
         border-radius: 100%;
 
         
+    }
+
+    .intro__right__dots {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        position: absolute;
+        bottom: -2rem;
+        left: 1rem;
+
+        width: 10rem;
+    }
+
+    .intro__right__dots__2 {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        position: absolute;
+        top: 0rem;
+        right: 5rem;
+
+        width: 10rem;
+    }
+
+    .intro__dots {
+        width: 5px;
+        height: 5px;
+
+        background-color: var(--green-600);
+
+        border-radius: 100%;
     }
 
     .intro__right img {
