@@ -781,6 +781,24 @@ body {
         left:-20px;
     }
 
-    
+    .skills {
+        padding: 0 9.2rem;
 
+        margin-bottom: 6rem;
+    }
+
+    .skills__bar {
+        width: 50rem;
+    }
+
+    .skills__title {
+        font-size: 2.4rem;
+    }
+
+    .skills__techs div {
+        width: 11rem;
+        height: 11rem;
+
+        font-size: 1.6rem;
+    } 
 }
