@@ -801,4 +801,12 @@ body {
 
         font-size: 1.6rem;
     } 
+
+    .latestProjects {
+        padding: 0 9.2rem;
+    }
+
+    .latestProjects__title {
+        font-size: 2.4rem;
+    }
 }
