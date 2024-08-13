@@ -25,6 +25,8 @@ html {
 }
 
 body {
+   position: relative;
+
    background-color: var(--black-900); 
    color: var(--white-300);
    font-family: var(--font-text);
@@ -39,6 +41,50 @@ body {
    height: 100vh;
 
    overflow-y: hidden;
+}
+
+/* menu da versão mobile */
+.menu {
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--brown-700);
+}
+
+.menu__close {
+    display: none;
+}
+
+.menu__open {
+    display: block;
+}
+
+.menu__container {
+    display: flex;
+    gap: 12px;
+
+    padding: 2rem;
+}
+
+.menu__button {
+    background-color: transparent;
+    border: none;
+}
+
+.menu__option {
+    list-style-type: none;
+
+    padding: 0 2rem;
+}
+
+.menu__option li {
+    font-size: 1.8rem;
+
+    border-bottom: 1px solid var(--white-300);
+
+    margin-bottom: 2rem;
 }
 
 .header {
