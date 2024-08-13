@@ -45,17 +45,19 @@ body {
 
 /* menu da versão mobile */
 .menu {
-    display: none;
     position: absolute;
 
     width: 100vw;
     height: 100vh;
 
     background-color: var(--brown-700);
+
+    transform: translateX(-100vw);
+    transition: transform .5s ease-in;
 }
 
 .menu__open {
-    display: block;
+    transform: translateX(0vw);
 }
 
 .menu__container {
