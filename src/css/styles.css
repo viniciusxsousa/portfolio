@@ -45,16 +45,13 @@ body {
 
 /* menu da versão mobile */
 .menu {
+    display: none;
     position: absolute;
 
     width: 100vw;
     height: 100vh;
 
     background-color: var(--brown-700);
-}
-
-.menu__close {
-    display: none;
 }
 
 .menu__open {
