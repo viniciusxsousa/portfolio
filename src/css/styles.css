@@ -86,6 +86,11 @@ body {
     margin-bottom: 2rem;
 }
 
+.menu__option li a {
+    color: var(--white-300);
+    text-decoration: none;
+}
+
 .header {
     grid-area: header;
 
