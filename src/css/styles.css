@@ -192,7 +192,16 @@ body {
     border-radius: 80px;
 }
 
-.intro__buttons div button{
+.intro__buttons div {
+    display: flex;
+    gap: 8px
+}
+
+.intro__buttons div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 4.3rem;
     height: 3.1rem;
     
@@ -203,7 +212,7 @@ body {
 }
 
 
-.intro__buttons div button img {
+.intro__buttons div a img {
     width: 3.3rem;
     height: 2.1rem;
 }
@@ -377,10 +386,12 @@ body {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
 
     background-color: var(--black-900);
     color: var(--white-300);
+    text-decoration: none;
 
     border: none;
     border-radius: 8px;
