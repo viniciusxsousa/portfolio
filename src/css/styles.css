@@ -297,6 +297,11 @@ body {
     height: 150px;
 }
 
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
 .swiper-button-prev, .swiper-button-next {
     color: var(--green-600);
 }
@@ -412,24 +417,6 @@ body {
 
 .footer__copy {
     text-align: center;
-}
-
-.teste1 {
-    width: 100%;
-    height: 100%;
-    background-color: red;
-}
-
-.teste2 {
-    width: 100%;
-    height: 100%;
-    background-color: orange;
-}
-
-.teste3 {
-    width: 100%;
-    height: 100%;
-    background-color: green;
 }
 
 @media screen and (min-width: 375px){
