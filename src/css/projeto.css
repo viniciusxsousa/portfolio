@@ -92,6 +92,12 @@ body {
     margin-bottom: 3.2rem;
 }
 
+.project__section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .project__card {
     width: 26rem;
 
