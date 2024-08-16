@@ -127,3 +127,26 @@ body {
 
     background-color: var(--brown-700);
 }
+
+.project__card__stack {
+    margin: 0;
+
+    font-size: 1.2rem;
+}
+
+/* Cores das tags */
+.react {
+    color: #3B82F6;
+}
+
+.javascript {
+    color: #6366F1;
+}
+
+.node {
+    color: #22C55E;
+}
+
+.project__card__description {
+    font-size: 1.4rem;
+}
