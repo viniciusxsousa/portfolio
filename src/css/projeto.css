@@ -43,6 +43,56 @@ body {
    overflow-y: hidden;
 }
 
+/* menu da versão mobile */
+.menu {
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--brown-700);
+
+    transform: translateX(-100vw);
+    transition: transform .5s ease-in;
+
+    z-index: 10;
+}
+
+.menu__open {
+    transform: translateX(0vw);
+}
+
+.menu__container {
+    display: flex;
+    gap: 12px;
+
+    padding: 2rem;
+}
+
+.menu__button {
+    background-color: transparent;
+    border: none;
+}
+
+.menu__option {
+    list-style-type: none;
+
+    padding: 0 2rem;
+}
+
+.menu__option li {
+    font-size: 1.8rem;
+
+    border-bottom: 1px solid var(--white-300);
+
+    margin-bottom: 2rem;
+}
+
+.menu__option li a {
+    color: var(--white-300);
+    text-decoration: none;
+}
+
 .header {
     grid-area: header;
 
