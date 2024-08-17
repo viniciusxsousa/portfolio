@@ -171,6 +171,11 @@ body {
 
 .project__card__button {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
 
     width: 6rem;
     height: 5rem;
