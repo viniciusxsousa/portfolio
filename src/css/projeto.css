@@ -374,4 +374,40 @@ body {
     .project__section {
         width: 1024px;
     }
+
+    .footer {
+        padding: 4rem 9.2rem;
+    }
+
+    .footer__logo {
+        width: 5rem;
+    }
+
+    .footer__info {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 25%;
+
+    }
+
+    .footer__buttons {
+        width: 15rem;
+        height: 5rem;
+
+        font-size: 1.4rem;
+        justify-content: center;
+    }
+
+    .footer__buttons img {
+        width: 2rem;
+    }
+
+    .footer__copy {
+        font-size: 1.4rem;
+    }
+
+    .footer__bar {
+        display: none;
+    }
 }
