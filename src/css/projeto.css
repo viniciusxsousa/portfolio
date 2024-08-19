@@ -370,4 +370,8 @@ body {
 
         margin-left: 5rem;
     }
+
+    .project__section {
+        width: 1024px;
+    }
 }
