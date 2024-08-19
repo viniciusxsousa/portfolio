@@ -327,3 +327,47 @@ body {
         margin-bottom: 10px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .header {
+        align-items: center;
+
+        padding: 1.2rem 9.2rem 0 9.2rem;
+     }
+
+     .header__logo {
+        width: 4.8rem;
+        height: 4.8rem;
+     }
+
+     .header__nav ul {
+        gap: 1.6rem;
+
+        display: flex;
+        align-items: center;
+
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .header__nav ul li:nth-child(3) {
+        display: none;
+    }
+
+    .header__button__contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+        color: var(--white-300);
+
+        width: 9.5rem;
+        height: 3rem;
+
+        border: 2px solid var(--green-600);
+        border-radius: 10px;
+
+        margin-left: 5rem;
+    }
+}
