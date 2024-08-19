@@ -301,4 +301,29 @@ body {
         justify-content: center;
         gap: 24px 50px; 
     }
+
+    .footer {
+        margin-top: 46px;
+
+        padding: 1rem 3.2rem;
+    }
+
+    .footer__info {
+        width: 100%;
+    }
+
+    .footer__buttons {
+        width: 10rem;
+        height: 4rem;
+
+        font-size: 1.2rem;
+    }
+
+    .footer__bar {
+        width: 50rem;
+
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
