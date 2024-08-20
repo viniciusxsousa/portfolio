@@ -216,17 +216,18 @@ body {
     background-color: var(--brown-700);
 
     display: flex;
+    justify-content: flex-start;
     gap: 3rem;
 
     padding: 1rem 2rem;
     margin-top: 2rem;
 
-    width: 100vw;
-    box-sizing: border-box;
+    height: 13.8rem;
 }
 
 .footer__logo {
     width: 3.5rem;
+    height: 4rem;
 }
 
 .footer__buttons-conteiner {
