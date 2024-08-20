@@ -308,6 +308,8 @@ body {
         margin-top: 46px;
 
         padding: 1rem 3.2rem;
+
+        box-sizing: border-box;
     }
 
     .footer__info {
